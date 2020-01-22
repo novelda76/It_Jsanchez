@@ -1,0 +1,21 @@
+<div>
+    <input id="Num1" type="text" /></br>
+    <input id="Num2" type="text" /></br>
+    <input type="button" value="Sum" onclick="Sum()" />
+</div>
+
+<script>
+
+function Sum()
+{
+    var num1Text = document.getElementById("Num1").value;
+    var num2Text =  document.getElementById("Num2").value;
+
+    //var s = "num1: " + num1Text + " num2: " +num2Text;
+    var resultado = "La nota media es " + (parseFloat(num1Text) + parseFloat(num2Text));
+
+    //alert(s);
+    alert(resultado);
+}
+
+</script>
