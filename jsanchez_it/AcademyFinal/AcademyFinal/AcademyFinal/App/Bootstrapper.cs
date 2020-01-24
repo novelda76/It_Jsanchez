@@ -12,6 +12,7 @@ using System;
 
 namespace AcademyFinal.App.WPF
 {
+    //El bootstrapper lo lanzaremos desde App.xaml.cs, a través del método OnStartup
     public class Bootstrapper
     {
         public IDependencyContainer Init()
@@ -30,7 +31,8 @@ namespace AcademyFinal.App.WPF
         {
             var studentRepoBuilder = new Func<object[], object>((parameters) =>
             {
-                return new StudentRepository(GetDbConstructor());
+                //return new StudentRepository(GetDbConstructor());
+                return new EfCoreRepository<Student>(GetDbConstructor());
             });
 
             var subjectsRepoBuilder = new Func<object[], object>((parameters) =>
@@ -53,7 +55,9 @@ namespace AcademyFinal.App.WPF
             depCon.Register<IRepository<Subject>, EfCoreRepository<Subject>>(subjectsRepoBuilder);
             depCon.Register<ISubjectsRepository, SubjectRepository>((parameters) => new SubjectRepository(GetDbConstructor()));
             depCon.Register<IRepository<Exam>, EfCoreRepository<Exam>>(examsRepoBuilder);
+            depCon.Register<IExamsRepository, ExamRepository>((parameters) => new ExamRepository(GetDbConstructor()));
             depCon.Register<IRepository<StudentExam>, EfCoreRepository<StudentExam>>(studentsExamsRepoBuilder);
+            depCon.Register<IStudentsExamRepository, StudentExamRepository>((parameters) => new StudentExamRepository(GetDbConstructor()));
         }
 
         private static AcademyDbContext GetDbConstructor()
@@ -62,8 +66,6 @@ namespace AcademyFinal.App.WPF
             return factory.CreateDbContext(null);
         }
 
-
     }
-
 
 }

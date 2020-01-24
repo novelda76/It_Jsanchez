@@ -1,20 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows;
-using System.Windows.Input;
-using Academy.Lib.DAL;
-using Academy.Lib.DAL.Repositories;
-using Academy.Lib.Models;
+﻿using Academy.Lib.Models;
 using Academy.Lib.Repositories;
-using AcademyFinal.App.WPF.DbContextFactory;
 using AcademyFinal.App.WPF.UI;
 using Common.Lib.Core;
-using Common.Lib.Core.Context;
-using Common.Lib.DAL.EFCore;
-using Common.Lib.Infrastructure;
-using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows;
+using System.Windows.Input;
 using WpfApp1.Lib.UI;
 
 
@@ -153,8 +144,6 @@ namespace AcademyFinal.App.WPF.ViewModels
                 editStudent.ChairNumber = int.Parse(ChairNumber);
             }
         }
-
-
 
        
         public Student SelectedStudent

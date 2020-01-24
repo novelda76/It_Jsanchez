@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\formacio\Documents\jsanchez_it\AcademyFinal\AcademyFinal\AcademyFinal\obj\Debug\netcoreapp3.1\
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal\AcademyFinal\AcademyFinal\obj\Debug\netcoreapp3.1\
 AcademyFinal.App.WPF
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-C:\Users\formacio\Documents\jsanchez_it\AcademyFinal\AcademyFinal\AcademyFinal\App.xaml
-3-1914997477
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal\AcademyFinal\AcademyFinal\App.xaml
+4-336327919
 
-151650292627
-225127762501
-MainWindow.xaml;Views\StudentsView.xaml;Views\SubjectsView.xaml;
+17-244768751
+225-706692847
+MainWindow.xaml;Views\ExamsView.xaml;Views\StudentsView.xaml;Views\SubjectsView.xaml;
 
-True
+False
 

@@ -2036,11 +2036,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\formacio\\Documents\\jsanchez_it\\AcademyFinal\\AcademyFinal\\AcademyFinal\\AcademyFinal.App.WPF.csproj",
+      "projectUniqueName": "C:\\Users\\formacio\\Documents\\It_Jsanchez\\It_Jsanchez\\jsanchez_it\\AcademyFinal\\AcademyFinal\\AcademyFinal\\AcademyFinal.App.WPF.csproj",
       "projectName": "AcademyFinal.App.WPF",
-      "projectPath": "C:\\Users\\formacio\\Documents\\jsanchez_it\\AcademyFinal\\AcademyFinal\\AcademyFinal\\AcademyFinal.App.WPF.csproj",
+      "projectPath": "C:\\Users\\formacio\\Documents\\It_Jsanchez\\It_Jsanchez\\jsanchez_it\\AcademyFinal\\AcademyFinal\\AcademyFinal\\AcademyFinal.App.WPF.csproj",
       "packagesPath": "C:\\Users\\formacio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\formacio\\Documents\\jsanchez_it\\AcademyFinal\\AcademyFinal\\AcademyFinal\\obj\\",
+      "outputPath": "C:\\Users\\formacio\\Documents\\It_Jsanchez\\It_Jsanchez\\jsanchez_it\\AcademyFinal\\AcademyFinal\\AcademyFinal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\formacio\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2056,11 +2056,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\formacio\\Documents\\jsanchez_it\\AcademyFinal\\AcademyFinal\\Academy.Lib.DAL\\Academy.Lib.DAL.csproj": {
-              "projectPath": "C:\\Users\\formacio\\Documents\\jsanchez_it\\AcademyFinal\\AcademyFinal\\Academy.Lib.DAL\\Academy.Lib.DAL.csproj"
+            "C:\\Users\\formacio\\Documents\\It_Jsanchez\\It_Jsanchez\\jsanchez_it\\AcademyFinal\\AcademyFinal\\Academy.Lib.DAL\\Academy.Lib.DAL.csproj": {
+              "projectPath": "C:\\Users\\formacio\\Documents\\It_Jsanchez\\It_Jsanchez\\jsanchez_it\\AcademyFinal\\AcademyFinal\\Academy.Lib.DAL\\Academy.Lib.DAL.csproj"
             },
-            "C:\\Users\\formacio\\Documents\\jsanchez_it\\AcademyFinal\\AcademyFinal\\Academy.Lib\\Academy.Lib.csproj": {
-              "projectPath": "C:\\Users\\formacio\\Documents\\jsanchez_it\\AcademyFinal\\AcademyFinal\\Academy.Lib\\Academy.Lib.csproj"
+            "C:\\Users\\formacio\\Documents\\It_Jsanchez\\It_Jsanchez\\jsanchez_it\\AcademyFinal\\AcademyFinal\\Academy.Lib\\Academy.Lib.csproj": {
+              "projectPath": "C:\\Users\\formacio\\Documents\\It_Jsanchez\\It_Jsanchez\\jsanchez_it\\AcademyFinal\\AcademyFinal\\Academy.Lib\\Academy.Lib.csproj"
             }
           }
         }
@@ -2115,7 +2115,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
