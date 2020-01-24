@@ -7806,11 +7806,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\formacio\\Documents\\jsanchez_it\\AcademyFinal - asp\\AcademyFinal\\Academy.Web\\Academy.Web.csproj",
+      "projectUniqueName": "C:\\Users\\formacio\\Documents\\It_Jsanchez\\It_Jsanchez\\jsanchez_it\\AcademyFinal - asp\\AcademyFinal\\Academy.Web\\Academy.Web.csproj",
       "projectName": "Academy.Web",
-      "projectPath": "C:\\Users\\formacio\\Documents\\jsanchez_it\\AcademyFinal - asp\\AcademyFinal\\Academy.Web\\Academy.Web.csproj",
+      "projectPath": "C:\\Users\\formacio\\Documents\\It_Jsanchez\\It_Jsanchez\\jsanchez_it\\AcademyFinal - asp\\AcademyFinal\\Academy.Web\\Academy.Web.csproj",
       "packagesPath": "C:\\Users\\formacio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\formacio\\Documents\\jsanchez_it\\AcademyFinal - asp\\AcademyFinal\\Academy.Web\\obj\\",
+      "outputPath": "C:\\Users\\formacio\\Documents\\It_Jsanchez\\It_Jsanchez\\jsanchez_it\\AcademyFinal - asp\\AcademyFinal\\Academy.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\formacio\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7826,11 +7826,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\formacio\\Documents\\jsanchez_it\\AcademyFinal - asp\\AcademyFinal\\Academy.Lib.DAL\\Academy.Lib.DAL.csproj": {
-              "projectPath": "C:\\Users\\formacio\\Documents\\jsanchez_it\\AcademyFinal - asp\\AcademyFinal\\Academy.Lib.DAL\\Academy.Lib.DAL.csproj"
+            "C:\\Users\\formacio\\Documents\\It_Jsanchez\\It_Jsanchez\\jsanchez_it\\AcademyFinal - asp\\AcademyFinal\\Academy.Lib.DAL\\Academy.Lib.DAL.csproj": {
+              "projectPath": "C:\\Users\\formacio\\Documents\\It_Jsanchez\\It_Jsanchez\\jsanchez_it\\AcademyFinal - asp\\AcademyFinal\\Academy.Lib.DAL\\Academy.Lib.DAL.csproj"
             },
-            "C:\\Users\\formacio\\Documents\\jsanchez_it\\AcademyFinal - asp\\AcademyFinal\\AcademyFinal\\AcademyFinal.App.WPF.csproj": {
-              "projectPath": "C:\\Users\\formacio\\Documents\\jsanchez_it\\AcademyFinal - asp\\AcademyFinal\\AcademyFinal\\AcademyFinal.App.WPF.csproj"
+            "C:\\Users\\formacio\\Documents\\It_Jsanchez\\It_Jsanchez\\jsanchez_it\\AcademyFinal - asp\\AcademyFinal\\AcademyFinal\\AcademyFinal.App.WPF.csproj": {
+              "projectPath": "C:\\Users\\formacio\\Documents\\It_Jsanchez\\It_Jsanchez\\jsanchez_it\\AcademyFinal - asp\\AcademyFinal\\AcademyFinal\\AcademyFinal.App.WPF.csproj"
             }
           }
         }
@@ -7892,7 +7892,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

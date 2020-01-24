@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\formacio\Documents\jsanchez_it\AcademyFinal - asp\AcademyFinal\AcademyFinal\obj\Debug\netcoreapp3.1\
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal - asp\AcademyFinal\AcademyFinal\obj\Debug\netcoreapp3.1\
 AcademyFinal.App.WPF
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-C:\Users\formacio\Documents\jsanchez_it\AcademyFinal - asp\AcademyFinal\AcademyFinal\App.xaml
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal - asp\AcademyFinal\AcademyFinal\App.xaml
 3-1914997477
 
 151650292627
-2251841158605
+225-1470636441
 MainWindow.xaml;Views\StudentsView.xaml;Views\SubjectsView.xaml;
 
-True
+False
 

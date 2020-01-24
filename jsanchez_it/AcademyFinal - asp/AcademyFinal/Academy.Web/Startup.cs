@@ -37,7 +37,10 @@ namespace Academy.Web
         {
             services.AddControllers();
 
+            
+
             var dbConnection = Configuration.GetConnectionString("AcademyDbConnection");
+            
             services.AddDbContext < AcademyDbContext >
                 (options => options.UseSqlite(dbConnection, b => b.MigrationsAssembly("AcademyFinal.App.WPF")));
                 
