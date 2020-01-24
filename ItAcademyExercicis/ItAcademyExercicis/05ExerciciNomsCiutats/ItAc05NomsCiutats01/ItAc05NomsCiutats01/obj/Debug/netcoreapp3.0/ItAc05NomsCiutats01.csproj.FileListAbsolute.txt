@@ -1,0 +1,11 @@
+C:\Users\rami\source\repos\ItAc05NomsCiutats01\ItAc05NomsCiutats01\bin\Debug\netcoreapp3.0\ItAc05NomsCiutats01.exe
+C:\Users\rami\source\repos\ItAc05NomsCiutats01\ItAc05NomsCiutats01\bin\Debug\netcoreapp3.0\ItAc05NomsCiutats01.deps.json
+C:\Users\rami\source\repos\ItAc05NomsCiutats01\ItAc05NomsCiutats01\bin\Debug\netcoreapp3.0\ItAc05NomsCiutats01.runtimeconfig.json
+C:\Users\rami\source\repos\ItAc05NomsCiutats01\ItAc05NomsCiutats01\bin\Debug\netcoreapp3.0\ItAc05NomsCiutats01.runtimeconfig.dev.json
+C:\Users\rami\source\repos\ItAc05NomsCiutats01\ItAc05NomsCiutats01\bin\Debug\netcoreapp3.0\ItAc05NomsCiutats01.dll
+C:\Users\rami\source\repos\ItAc05NomsCiutats01\ItAc05NomsCiutats01\bin\Debug\netcoreapp3.0\ItAc05NomsCiutats01.pdb
+C:\Users\rami\source\repos\ItAc05NomsCiutats01\ItAc05NomsCiutats01\obj\Debug\netcoreapp3.0\ItAc05NomsCiutats01.csprojAssemblyReference.cache
+C:\Users\rami\source\repos\ItAc05NomsCiutats01\ItAc05NomsCiutats01\obj\Debug\netcoreapp3.0\ItAc05NomsCiutats01.AssemblyInfoInputs.cache
+C:\Users\rami\source\repos\ItAc05NomsCiutats01\ItAc05NomsCiutats01\obj\Debug\netcoreapp3.0\ItAc05NomsCiutats01.AssemblyInfo.cs
+C:\Users\rami\source\repos\ItAc05NomsCiutats01\ItAc05NomsCiutats01\obj\Debug\netcoreapp3.0\ItAc05NomsCiutats01.dll
+C:\Users\rami\source\repos\ItAc05NomsCiutats01\ItAc05NomsCiutats01\obj\Debug\netcoreapp3.0\ItAc05NomsCiutats01.pdb

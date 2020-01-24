@@ -1,0 +1,11 @@
+C:\Users\rami\source\repos\ItAc04ExerciciVariables\ItAc04ExerciciVariables\bin\Debug\netcoreapp3.0\ItAc04ExerciciVariables.exe
+C:\Users\rami\source\repos\ItAc04ExerciciVariables\ItAc04ExerciciVariables\bin\Debug\netcoreapp3.0\ItAc04ExerciciVariables.deps.json
+C:\Users\rami\source\repos\ItAc04ExerciciVariables\ItAc04ExerciciVariables\bin\Debug\netcoreapp3.0\ItAc04ExerciciVariables.runtimeconfig.json
+C:\Users\rami\source\repos\ItAc04ExerciciVariables\ItAc04ExerciciVariables\bin\Debug\netcoreapp3.0\ItAc04ExerciciVariables.runtimeconfig.dev.json
+C:\Users\rami\source\repos\ItAc04ExerciciVariables\ItAc04ExerciciVariables\bin\Debug\netcoreapp3.0\ItAc04ExerciciVariables.dll
+C:\Users\rami\source\repos\ItAc04ExerciciVariables\ItAc04ExerciciVariables\bin\Debug\netcoreapp3.0\ItAc04ExerciciVariables.pdb
+C:\Users\rami\source\repos\ItAc04ExerciciVariables\ItAc04ExerciciVariables\obj\Debug\netcoreapp3.0\ItAc04ExerciciVariables.csprojAssemblyReference.cache
+C:\Users\rami\source\repos\ItAc04ExerciciVariables\ItAc04ExerciciVariables\obj\Debug\netcoreapp3.0\ItAc04ExerciciVariables.AssemblyInfoInputs.cache
+C:\Users\rami\source\repos\ItAc04ExerciciVariables\ItAc04ExerciciVariables\obj\Debug\netcoreapp3.0\ItAc04ExerciciVariables.AssemblyInfo.cs
+C:\Users\rami\source\repos\ItAc04ExerciciVariables\ItAc04ExerciciVariables\obj\Debug\netcoreapp3.0\ItAc04ExerciciVariables.dll
+C:\Users\rami\source\repos\ItAc04ExerciciVariables\ItAc04ExerciciVariables\obj\Debug\netcoreapp3.0\ItAc04ExerciciVariables.pdb

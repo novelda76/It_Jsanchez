@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "ItAc03LletresRepetides04/1.0.0": {
+        "runtime": {
+          "ItAc03LletresRepetides04.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ItAc03LletresRepetides04/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

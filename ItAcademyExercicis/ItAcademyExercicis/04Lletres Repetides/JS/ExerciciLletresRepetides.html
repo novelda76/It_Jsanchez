@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    document.write("Benvingut al programa Lletres Repetides"+ "<br>");
+    
+    var cantidad = 0;
+    var flag = false;
+    while (flag == false)
+    {
+        cantidad=prompt("QUANTES LLETRES TE EL TEU NOM ? " , "");
+        
+        if (isNaN(cantidad)==false)
+        {
+            cantidad = parseInt(cantidad).toString();
+            flag = true;
+        }
+        else
+        {
+            alert("Algún caracter no és correcte, torna-ho a intentar");
+            flag = false;
+        }
+    }
+    document.write("El teu nom té  " + cantidad + " lletres"+ "<br>");
+    var entrada="";
+    alert("Ara entrarem les lletres del teu nom");
+    flag=false;
+    while (flag == false)
+    {
+        entrada=prompt("ENTRA EL TEU NOM" , "");
+        if (entrada.length==cantidad)
+        {
+            for(i=0; i<entrada.length; i++)
+            {
+                var numeros="0123456789";
+                if (numeros.indexOf(entrada.charAt(i),0)!=-1)
+                {
+                    alert("Els noms de persones no contenen números!, torna-ho a intentar");
+                    entrada="";
+                    flag=false;
+                }
+                else
+                {
+                    flag=true;
+                }
+            }
+        }
+        else
+        {
+            alert("No hi ha la quantitat correcta de lletres");
+            entrada="";
+            flag=false;
+        }
+    }
+    document.write("Les lletres del teu NOM són :  " + entrada + "<br>");  
+    var nuevoArray = new Array(cantidad);  
+    for( var i=0; i<entrada.length; i++)
+    {
+      nuevoArray[i]=entrada.charAt(i);
+    } 
+
+    for (var i=0;i<nuevoArray.length;i++)
+    {
+        document.write("posició Array  " + i + " : " + nuevoArray[i] + "<br>" )
+    }
+    
+    //FASE 2
+    var Name = new Set();
+   for (var i=0; i<nuevoArray.length;i++)
+   {
+     Name.add(nuevoArray[i]);
+   }
+  
+   for ( let ele of Name ) 
+  {
+    switch (ele)
+    {
+        case 'a':
+            document.write("La lletra : " + ele + " és VOCAL"+ "<br>");
+            break;
+        case 'e':
+            document.write("La lletra : " + ele + " és VOCAL"+ "<br>");
+            break;
+        case 'i':
+            document.write("La lletra : " + ele + " és VOCAL"+ "<br>");
+            break;
+        case 'o':
+            document.write("La lletra : " + ele + " és VOCAL"+ "<br>");
+            break;
+        case 'u':
+            document.write("La lletra : " + ele + " és VOCAL"+ "<br>");
+            break;
+        default:
+            document.write("La lletra : " + ele + " és CONSONANT"+ "<br>");
+            break;
+    }
+  }
+
+  // FASE 3
+
+  var letrasDiccio=new Map();
+  var contador = 1;
+            for (var i=0;i<nuevoArray.length;i++)
+            {
+                contador = 0;
+                for (var j=0;j<nuevoArray.length;j++)
+                {
+                    if (nuevoArray[i] == nuevoArray[j])
+                    {
+                        contador++;
+                    }
+                }
+                 var valor = nuevoArray[i];
+                 letrasDiccio.set(valor,contador);
+                 document.write ("Entran al diccionario (MAP) : " + valor +" , "+ contador + "<br>" )
+            }
+    
+    // FASE 4
+
+    var cantidadS = 0;
+    var flagS = false;
+    while (flagS == false)
+    {
+        cantidadS=prompt("QUANTES LLETRES TE EL TEU COGNOM ? " , "");
+        
+        if (isNaN(cantidadS)==false)
+        {
+            cantidadS = parseInt(cantidadS).toString();
+            flagS = true;
+        }
+        else
+        {
+            alert("Algún caracter no és correcte, torna-ho a intentar");
+            flagS = false;
+        }
+    }
+    document.write("El teu cognom té  " + cantidadS + " lletres"+ "<br>");
+    var entradaS="";
+    alert("Ara entrarem les lletres del teu cognom");
+    flagS=false;
+    while (flagS == false)
+    {
+        entradaS=prompt("ENTRA EL TEU COGNOM" , "");
+        if (entradaS.length==cantidadS)
+        {
+            for(i=0; i<entradaS.length; i++)
+            {
+                var numeros="0123456789";
+                if (numeros.indexOf(entradaS.charAt(i),0)!=-1)
+                {
+                    alert("Els noms de persones no contenen números!, torna-ho a intentar");
+                    entradaS="";
+                    flagS=false;
+                }
+                else
+                {
+                    flagS=true;
+                }
+            }
+        }
+        else
+        {
+            alert("No hi ha la quantitat correcta de lletres");
+            entradaS="";
+            flagS=false;
+        }
+    }
+    document.write("Les lletres del teu COGNOM són :  " + entradaS + "<br>");  
+    
+    var nuevoArrayS = new Array(cantidadS);  
+    for( var i=0; i<entradaS.length; i++)
+    {
+      nuevoArrayS[i]=entradaS.charAt(i);
+    } 
+
+    for (var i=0;i<nuevoArrayS.length;i++)
+    {
+        document.write("posició ArrayS  " + i + " : " + nuevoArrayS[i] + "<br>" )
+    }
+    
+
+    var FullName = new Array();
+
+    for (var i=0; i<cantidad;i++)
+    {
+        FullName[i]=nuevoArray[i];
+    }
+    
+    for (var i=0;i<cantidadS;i++)
+    {
+        var kantidad=parseInt(cantidad);
+        FullName[kantidad+i]=nuevoArrayS[i];
+    }
+
+    document.write ("FullName [");
+    for (var i=0;i<cantidad-1;i++)
+    {
+        document.write("'" + FullName[i] + "'" + "," );
+    }
+    document.write("'" + FullName[cantidad-1] + "'" + "," + "' '" + ",");
+    var kantidades =parseInt(cantidad) + parseInt(cantidadS);
+    for ( i= cantidad; i < (kantidades) - 1; i++ )
+    {
+        document.write("'" + FullName[i] + "'" + ",");
+    }
+    var kantidades =parseInt(cantidad) + parseInt(cantidadS);
+    document.write ("'" + FullName[kantidades - 1] + "'" + "]" + "<br>" );
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "ItAc05NomsCiutats01/1.0.0": {
+        "runtime": {
+          "ItAc05NomsCiutats01.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ItAc05NomsCiutats01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

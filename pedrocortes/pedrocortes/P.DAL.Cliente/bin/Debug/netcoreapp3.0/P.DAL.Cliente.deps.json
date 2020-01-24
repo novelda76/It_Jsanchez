@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "P.DAL.Cliente/1.0.0": {
+        "dependencies": {
+          "Common.Lib": "1.0.0",
+          "Common.Lib.Client": "1.0.0",
+          "P.BL": "1.0.0"
+        },
+        "runtime": {
+          "P.DAL.Cliente.dll": {}
+        }
+      },
+      "Common.Lib/1.0.0": {
+        "runtime": {
+          "Common.Lib.dll": {}
+        }
+      },
+      "Common.Lib.Client/1.0.0": {
+        "dependencies": {
+          "Common.Lib": "1.0.0"
+        },
+        "runtime": {
+          "Common.Lib.Client.dll": {}
+        }
+      },
+      "P.BL/1.0.0": {
+        "dependencies": {
+          "Common.Lib": "1.0.0",
+          "Common.Lib.Client": "1.0.0"
+        },
+        "runtime": {
+          "P.BL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P.DAL.Cliente/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common.Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common.Lib.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "P.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

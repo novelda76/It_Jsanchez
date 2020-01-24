@@ -1,0 +1,83 @@
+<html>
+    <p id="msg0"></p>
+    <p id="msg1"></p>
+    <p id="msg2"></p>
+    <p id="msg3"></p>
+    <p id="msg4"></p>
+    <p id="msg5"></p>
+    
+
+</html>
+
+<script>
+
+document.getElementById("msg0").innerHTML =
+"Benvinguts al exercici de les variables." + "<br>";
+
+
+//FASE 1
+var surname1 = "March ";
+var surname2 = "Vera";
+var name = "Jordi ";
+var day = 18;
+var month = 01;
+var year = 1966;
+document.getElementById("msg1").innerHTML =
+"Sortida per pantalla de les variables string concatenades : "+ "<br>";
+document.getElementById("msg2").innerHTML =
+surname1  + surname2 + ", " + name + "<br>";
+document.getElementById("msg3").innerHTML =
+"Sortida per pantalla de les variables int concatenades : ";
+document.getElementById("msg4").innerHTML =
+day + " / " + month + " / " +year ;
+
+//FASE2
+const YEARTRASPAS= 1948;
+const CADENCIATRASPAS = 4;
+var anys = Math.floor((year - YEARTRASPAS) / CADENCIATRASPAS);
+document.getElementById("msg5").innerHTML =
+"Els anys de traspàs entre el "+ YEARTRASPAS + " y el " + year + " són : " + anys ;
+ //FASE3
+var yearAux = YEARTRASPAS;  
+var contador = 0;
+var yearTraspas =true;
+var traspas = "El meu any de naixement, " + year + ", és de traspàs.";
+var noTraspas = "El meu any de naixement, " + year + ", no és de traspàs.";
+var i;
+var text = "";
+for ( i = 0; yearAux <= year; i++)
+{
+    yearAux = yearAux + CADENCIATRASPAS;
+    contador++;
+    
+    if (yearAux>year)
+    {
+        contador--;
+    }
+    else 
+    {
+        document.write("L'any " + yearAux + " és any de traspàs. " + "<br>");
+    }
+}
+            
+if (year%CADENCIATRASPAS==0)
+{
+    yearTraspas = true;
+    document.write(traspas + "<br>");
+}
+else 
+{
+    yearTraspas = false;
+    document.write(noTraspas + "<br>");
+}
+
+// FASE 4
+var fullName = name + surname1 + surname2;
+var birthYear= day + " / " + month + " / " + year;
+document.write ( "El meu nom és " + fullName + "<br>");
+document.write ( "Vaig néixer el " + birthYear  + "<br>");
+document.write (noTraspas + "<br>")
+
+            
+
+</script>

@@ -1,0 +1,11 @@
+C:\Users\rami\source\repos\ItAc03LletresRepetides02\ItAc03LletresRepetides02\bin\Debug\netcoreapp3.0\ItAc03LletresRepetides02.exe
+C:\Users\rami\source\repos\ItAc03LletresRepetides02\ItAc03LletresRepetides02\bin\Debug\netcoreapp3.0\ItAc03LletresRepetides02.deps.json
+C:\Users\rami\source\repos\ItAc03LletresRepetides02\ItAc03LletresRepetides02\bin\Debug\netcoreapp3.0\ItAc03LletresRepetides02.runtimeconfig.json
+C:\Users\rami\source\repos\ItAc03LletresRepetides02\ItAc03LletresRepetides02\bin\Debug\netcoreapp3.0\ItAc03LletresRepetides02.runtimeconfig.dev.json
+C:\Users\rami\source\repos\ItAc03LletresRepetides02\ItAc03LletresRepetides02\bin\Debug\netcoreapp3.0\ItAc03LletresRepetides02.dll
+C:\Users\rami\source\repos\ItAc03LletresRepetides02\ItAc03LletresRepetides02\bin\Debug\netcoreapp3.0\ItAc03LletresRepetides02.pdb
+C:\Users\rami\source\repos\ItAc03LletresRepetides02\ItAc03LletresRepetides02\obj\Debug\netcoreapp3.0\ItAc03LletresRepetides02.csprojAssemblyReference.cache
+C:\Users\rami\source\repos\ItAc03LletresRepetides02\ItAc03LletresRepetides02\obj\Debug\netcoreapp3.0\ItAc03LletresRepetides02.AssemblyInfoInputs.cache
+C:\Users\rami\source\repos\ItAc03LletresRepetides02\ItAc03LletresRepetides02\obj\Debug\netcoreapp3.0\ItAc03LletresRepetides02.AssemblyInfo.cs
+C:\Users\rami\source\repos\ItAc03LletresRepetides02\ItAc03LletresRepetides02\obj\Debug\netcoreapp3.0\ItAc03LletresRepetides02.dll
+C:\Users\rami\source\repos\ItAc03LletresRepetides02\ItAc03LletresRepetides02\obj\Debug\netcoreapp3.0\ItAc03LletresRepetides02.pdb

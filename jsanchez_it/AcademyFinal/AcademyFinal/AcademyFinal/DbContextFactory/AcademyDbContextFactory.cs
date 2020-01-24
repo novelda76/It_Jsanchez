@@ -25,5 +25,7 @@ namespace AcademyFinal.App.WPF.DbContextFactory
 
             return new AcademyDbContext(optionsBuilder.Options);
         }
+
+
     }
 }

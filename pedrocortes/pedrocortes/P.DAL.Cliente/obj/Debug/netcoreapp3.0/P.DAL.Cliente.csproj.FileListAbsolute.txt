@@ -1,0 +1,30 @@
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.DAL.Cliente\bin\Debug\netcoreapp3.0\P.DAL.Cliente.deps.json
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.DAL.Cliente\bin\Debug\netcoreapp3.0\P.DAL.Cliente.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.DAL.Cliente\bin\Debug\netcoreapp3.0\P.DAL.Cliente.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.DAL.Cliente\bin\Debug\netcoreapp3.0\Common.Lib.Client.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.DAL.Cliente\bin\Debug\netcoreapp3.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.DAL.Cliente\bin\Debug\netcoreapp3.0\P.BL.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.DAL.Cliente\bin\Debug\netcoreapp3.0\Common.Lib.Client.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.DAL.Cliente\bin\Debug\netcoreapp3.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.DAL.Cliente\bin\Debug\netcoreapp3.0\P.BL.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.DAL.Cliente\obj\Debug\netcoreapp3.0\P.DAL.Cliente.csprojAssemblyReference.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.DAL.Cliente\obj\Debug\netcoreapp3.0\P.DAL.Cliente.AssemblyInfoInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.DAL.Cliente\obj\Debug\netcoreapp3.0\P.DAL.Cliente.AssemblyInfo.cs
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.DAL.Cliente\obj\Debug\netcoreapp3.0\P.DAL.Cliente.csproj.CopyComplete
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.DAL.Cliente\obj\Debug\netcoreapp3.0\P.DAL.Cliente.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.DAL.Cliente\obj\Debug\netcoreapp3.0\P.DAL.Cliente.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.DAL.Cliente\bin\Debug\netcoreapp3.0\P.DAL.Cliente.deps.json
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.DAL.Cliente\bin\Debug\netcoreapp3.0\P.DAL.Cliente.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.DAL.Cliente\bin\Debug\netcoreapp3.0\P.DAL.Cliente.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.DAL.Cliente\bin\Debug\netcoreapp3.0\Common.Lib.Client.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.DAL.Cliente\bin\Debug\netcoreapp3.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.DAL.Cliente\bin\Debug\netcoreapp3.0\P.BL.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.DAL.Cliente\bin\Debug\netcoreapp3.0\Common.Lib.Client.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.DAL.Cliente\bin\Debug\netcoreapp3.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.DAL.Cliente\bin\Debug\netcoreapp3.0\P.BL.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.DAL.Cliente\obj\Debug\netcoreapp3.0\P.DAL.Cliente.csprojAssemblyReference.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.DAL.Cliente\obj\Debug\netcoreapp3.0\P.DAL.Cliente.AssemblyInfoInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.DAL.Cliente\obj\Debug\netcoreapp3.0\P.DAL.Cliente.AssemblyInfo.cs
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.DAL.Cliente\obj\Debug\netcoreapp3.0\P.DAL.Cliente.csproj.CopyComplete
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.DAL.Cliente\obj\Debug\netcoreapp3.0\P.DAL.Cliente.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.DAL.Cliente\obj\Debug\netcoreapp3.0\P.DAL.Cliente.pdb

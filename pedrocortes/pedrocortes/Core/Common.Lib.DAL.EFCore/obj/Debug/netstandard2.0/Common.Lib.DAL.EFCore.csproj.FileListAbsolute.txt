@@ -1,0 +1,44 @@
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.deps.json
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.dll
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.pdb
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.dll
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.pdb
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.csprojAssemblyReference.cache
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.AssemblyInfoInputs.cache
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.AssemblyInfo.cs
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.csproj.CopyComplete
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.dll
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.pdb
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.deps.json
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.dll
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.pdb
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.dll
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.pdb
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.csprojAssemblyReference.cache
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.AssemblyInfoInputs.cache
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.AssemblyInfo.cs
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.csproj.CopyComplete
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.dll
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.deps.json
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.csprojAssemblyReference.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.AssemblyInfoInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.AssemblyInfo.cs
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.csproj.CopyComplete
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.deps.json
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.csprojAssemblyReference.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.AssemblyInfoInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.AssemblyInfo.cs
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.csproj.CopyComplete
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Common.Lib.DAL.EFCore\obj\Debug\netstandard2.0\Common.Lib.DAL.EFCore.pdb

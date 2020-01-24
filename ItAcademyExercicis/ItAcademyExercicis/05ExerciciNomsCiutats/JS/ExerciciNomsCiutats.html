@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // FASE 1
+    
+    document.write("Benvingut al programa dels noms de les Ciutats" + "<br>")
+    var cityOne="";
+    var cityTwoo="";
+    var cityThree="";
+    var cityFour="";
+    var cityFive="";
+    var citySix="";
+    for (var i=0; i<6;i++)
+    {
+        var cityAux = prompt ("Entra el nom de la ciutat " + i , "");
+        if (i==0)
+        {
+            cityOne=cityAux.toUpperCase();
+        }
+        if (i==1)
+        {
+            cityTwoo=cityAux.toUpperCase();
+        }
+        if (i==2)
+        {
+            cityThree=cityAux.toUpperCase();
+        }
+        if (i==3)
+        {
+            cityFour=cityAux.toUpperCase();
+        }
+        if (i==4)
+        {
+            cityFive=cityAux.toUpperCase();
+        }
+        if (i==5)
+        {
+            citySix=cityAux.toUpperCase();
+        }
+    }
+
+    document.write ("Les ciutats son : ");
+    document.write (cityOne + " , " + cityTwoo + " , "+cityThree+" , "+cityFour+" , "+cityFive+" , "+citySix+ "<br>");
+    // FASE 2
+
+    var arrayCiutats = new Array(6);  
+    for (var i = 0; i < 6; i++)
+    {
+        if (i == 0)
+        {
+            arrayCiutats[i]=cityOne;
+        }
+        else if (i == 1)
+        {
+            arrayCiutats[i] = cityTwoo; 
+        }
+        else if (i == 2)
+        {
+            arrayCiutats[i] = cityThree; 
+        }
+        else if (i == 3)
+        {
+            arrayCiutats[i] = cityFour; 
+        }
+        else if (i == 4)
+        {
+            arrayCiutats[i] = cityFive; 
+        }
+        else if (i == 5)
+        {
+            arrayCiutats[i] = citySix; 
+        }
+    }
+    document.write("Les ciutats ordenades alfabèticament són : " + "<br>");
+            arrayCiutats.sort();
+            for (var i=0; i<arrayCiutats.length;i++)
+            {
+                document.write(arrayCiutats[i] + "<br>");
+            }
+            //document.write("<br>");
+
+    // FASE 3
+    var arrayCiutatsModificades = new Array(6);
+    for (var i=0;i<arrayCiutatsModificades.length;i++)
+    {
+        arrayCiutatsModificades[i]=(arrayCiutats[i]).replace(/A/g,"4");
+    }
+    document.write("Les ciutats modificades i ordenades alfabèticament són : " + "<br>");
+    arrayCiutatsModificades.sort();
+    for (var i=0; i<arrayCiutatsModificades.length;i++)
+            {
+                document.write(arrayCiutatsModificades[i] + "<br>");
+            }
+
+    
+    // FASE 4
+
+    arrayCityOne = new Array(cityOne.length);
+    arrayCityTwoo = new Array(cityTwoo.length);
+    arrayCityThree = new Array(cityThree.length);
+    arrayCityFour = new Array(cityFour.length);
+    arrayCityFive = new Array(cityFive.length);
+    arrayCitySix = new Array(citySix.length);
+    document.write("Entrarem les ciutats als Arrays." + "<br>" );
+    for (var i=0; i<arrayCityOne.length;i++)
+        {
+            arrayCityOne[i]=cityOne[i];
+        }
+        for (var i=0; i<arrayCityTwoo.length;i++)
+        {
+            arrayCityTwoo[i]=cityTwoo[i];
+        }
+        for (var i=0; i<arrayCityThree.length;i++)
+        {
+            arrayCityThree[i]=cityThree[i];
+        }
+        for (var i=0; i<arrayCityFour.length;i++)
+        {
+            arrayCityFour[i]=cityFour[i];
+        }
+        for (var i=0; i<arrayCityFive.length;i++)
+        {
+            arrayCityFive[i]=cityFive[i];
+        }
+        for (var i=0; i<arrayCitySix.length;i++)
+        {
+            arrayCitySix[i]=citySix[i];
+        }
+
+    document.write("Les ciutats desde els Arrays amb les lletres invertides són : " + "<br>");
+
+    for (var i=arrayCityOne.length-1;i>=0;i--)
+    {
+        document.write(arrayCityOne[i]);
+    }
+    document.write("<br>");
+    for (var i=arrayCityTwoo.length-1;i>=0;i--)
+    {
+        document.write(arrayCityTwoo[i]);
+    }
+    document.write("<br>");
+    for (var i=arrayCityThree.length-1;i>=0;i--)
+    {
+        document.write(arrayCityThree[i]);
+    }
+    document.write("<br>");
+    for (var i=arrayCityFour.length-1;i>=0;i--)
+    {
+        document.write(arrayCityFour[i]);
+    }
+    document.write("<br>");
+    for (var i=arrayCityFive.length-1;i>=0;i--)
+    {
+        document.write(arrayCityFive[i]);
+    }
+    document.write("<br>");
+    for (var i=arrayCitySix.length-1;i>=0;i--)
+    {
+        document.write(arrayCitySix[i]);
+    }
+    document.write("<br>");
+
+
+    </script>
+    
+</body>
+</html>
+

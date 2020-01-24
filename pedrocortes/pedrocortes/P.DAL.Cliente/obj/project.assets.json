@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Common.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Common.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.Lib.dll": {}
+        }
+      },
+      "Common.Lib.Client/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Common.Lib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Common.Lib.Client.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.Lib.Client.dll": {}
+        }
+      },
+      "P.BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Common.Lib": "1.0.0",
+          "Common.Lib.Client": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/P.BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/P.BL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Common.Lib/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.Lib/Common.Lib.csproj",
+      "msbuildProject": "../Core/Core.Lib/Common.Lib.csproj"
+    },
+    "Common.Lib.Client/1.0.0": {
+      "type": "project",
+      "path": "../Core/Common.Lib.Client/Common.Lib.Client.csproj",
+      "msbuildProject": "../Core/Common.Lib.Client/Common.Lib.Client.csproj"
+    },
+    "P.BL/1.0.0": {
+      "type": "project",
+      "path": "../P.BL/P.BL.csproj",
+      "msbuildProject": "../P.BL/P.BL.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Common.Lib >= 1.0.0",
+      "Common.Lib.Client >= 1.0.0",
+      "P.BL >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pccom\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\05_FINALEXERCISE\\P.DAL.Cliente\\P.DAL.Cliente.csproj",
+      "projectName": "P.DAL.Cliente",
+      "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\05_FINALEXERCISE\\P.DAL.Cliente\\P.DAL.Cliente.csproj",
+      "packagesPath": "C:\\Users\\pccom\\.nuget\\packages\\",
+      "outputPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\05_FINALEXERCISE\\P.DAL.Cliente\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\pccom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\05_FINALEXERCISE\\Core\\Common.Lib.Client\\Common.Lib.Client.csproj": {
+              "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\05_FINALEXERCISE\\Core\\Common.Lib.Client\\Common.Lib.Client.csproj"
+            },
+            "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\05_FINALEXERCISE\\Core\\Core.Lib\\Common.Lib.csproj": {
+              "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\05_FINALEXERCISE\\Core\\Core.Lib\\Common.Lib.csproj"
+            },
+            "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\05_FINALEXERCISE\\P.BL\\P.BL.csproj": {
+              "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\05_FINALEXERCISE\\P.BL\\P.BL.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

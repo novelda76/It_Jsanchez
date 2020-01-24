@@ -25,7 +25,6 @@ C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal\Aca
 C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal\AcademyFinal\Academy.Lib\bin\Debug\netstandard2.0\Academy.Lib.pdb
 C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal\AcademyFinal\Academy.Lib\bin\Debug\netstandard2.0\Common.Lib.dll
 C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal\AcademyFinal\Academy.Lib\bin\Debug\netstandard2.0\Common.Lib.pdb
-C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal\AcademyFinal\Academy.Lib\obj\Debug\netstandard2.0\Academy.Lib.csprojAssemblyReference.cache
 C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal\AcademyFinal\Academy.Lib\obj\Debug\netstandard2.0\Academy.Lib.AssemblyInfoInputs.cache
 C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal\AcademyFinal\Academy.Lib\obj\Debug\netstandard2.0\Academy.Lib.AssemblyInfo.cs
 C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal\AcademyFinal\Academy.Lib\obj\Debug\netstandard2.0\Academy.Lib.csproj.CopyComplete

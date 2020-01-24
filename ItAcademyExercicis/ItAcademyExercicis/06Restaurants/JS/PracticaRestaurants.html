@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>It Academy - Práctica Restaurants</title>
+</head>
+<body>
+    <h2>Bienvenidos al programa de los Restaurants  </h2>
+
+    <script>
+    
+    
+    var arrayPlats = new Array(5); 
+    var arrayPreus = new Array(5);
+    var billFive = 5;
+    var billTen = 10;
+    var billTwen = 20;
+    var billFift = 50;
+    var billOneH = 100;
+    var billTwoH = 200;
+    var billFiveH = 500;
+    var totalPrice = 0;
+    
+    CrearCarta();
+    MostraCarta();
+    DemanarComanda();
+    
+
+
+    function DemanarComanda()
+    {
+        var Orders = new Array ();
+        var more = 1;
+        var dishSelected="";
+        while (!more !=1)
+        {
+            
+            if (more == 0)
+            {
+                break;
+            }
+            else
+            {
+                dishSelected = prompt ("Qué desearán tomar ? ");
+                dishSelected = dishSelected.toUpperCase();
+                Orders.push(dishSelected);
+            }
+
+            while (true)
+            {
+                more = prompt ("Desean seguir pidiendo ? 1= Si, 0=No");
+                if (isNaN(more)==true)
+                {
+                    alert ("El dato introducido no es correcto, entra un número"); 
+                }
+                else 
+                {
+                    break;
+                }
+                    
+            }
+        }
+
+        document.write ("Han pedido lo siguiente : " + "<br>");
+
+        for(var i=0; i< Orders.length;i++)
+        {
+            document.write( Orders[i] + "<br>"); 
+        }
+
+        var OutOfMenu = new Array();
+        for (var i=0; i<Orders.length; i++)
+        {
+            var element = Orders[i];
+            var idx = arrayPlats.indexOf(Orders[i]);
+
+            if (idx == -1)
+            {
+                OutOfMenu.push(Orders[i]);
+            }
+
+            else
+            {
+                document.write ("El plato  " + Orders[i] + " tiene un precio de :  " + arrayPreus[idx] + "  Euros" + "<br>" );
+                totalPrice = totalPrice + arrayPreus[idx] ;
+            }
+        }
+        totalPrice = Math.trunc(totalPrice * 100) / 100;
+        document.write ("<br>")
+        document.write ("El total de su pedido asciende a : " + totalPrice + " Euros" + "<br>");
+        document.write ("<br>")
+        document.write ("Han pedido los siguientes productos que no existen en la Carta " + "<br>");
+        for (var i = 0 ; i<OutOfMenu.length;i++)
+        {
+            document.write (OutOfMenu[i] + "<br>");
+        }
+
+        var Bills = [billFive, billTen, billTwen, billFift, billOneH, billTwoH, billFiveH];     
+        var BillsToPay = new Array();
+        var auxPrice = 0;
+        var bills =0;
+        var dif = 0.0;
+        
+        var redondeo = parseInt(Math.ceil(totalPrice));
+        dif = redondeo - totalPrice;
+        dif = Math.trunc(dif * 100) / 100;
+        var cambio = 0.0;
+        for (var i = 1; i<=5; i ++)
+        {
+            var resto = redondeo % 5;
+            if (resto==0)
+            {
+                cambio = i-1;
+                break;
+            }
+
+            else
+            {
+                redondeo++;
+            }
+        }
+
+        cambio = cambio + dif;
+        auxPrice = redondeo;
+
+        for (var i = 6; i>=0; i--)
+        {
+            bills = parseInt(auxPrice / Bills[i]);
+            var rest = auxPrice % Bills[i]; 
+            if (bills == 1 && rest == 0)
+            {
+                BillsToPay.push(Bills[i]);
+                auxPrice = rest;
+            }
+
+            else if (bills == 2)
+            {
+                BillsToPay.push(Bills[i]);
+                BillsToPay.push(Bills[i]);
+                auxPrice = rest;
+            }
+
+            else if (bills == 1)
+            {
+                BillsToPay.push(Bills[i]);
+                auxPrice = rest;
+            }
+        }
+        document.write ( "<br>");
+        document.write ("Pueden pagar con los siguientes billetes : " + "<br>" );
+        for (var i=0; i<BillsToPay.length; i++)
+        {
+            document.write (BillsToPay[i] + "  " +  "Euros" + "<br>");
+        }
+
+        document.write ("El cambio será de : " + cambio + "  " +"Euros");
+        
+    }
+
+
+
+
+    function CrearCarta()
+    {
+        document.write ("VAMOS A CREAR LA CARTA"+ "<br>")
+        for (var i=0; i<5;i++)
+        {
+            var platAux = prompt ("Entra el nombre del plato " + i , "");
+            platAux=platAux.toUpperCase();
+            arrayPlats[i]=platAux;
+            var preuAux = prompt ("Entra el precio del plato " + i , "");
+            var preu = preuAux.replace(",",".");
+            if (isNaN(preu)==false)
+            {
+                preuAux = parseFloat(preu)
+                arrayPreus[i]=preuAux;
+            }
+            else
+            {
+                alert ("El dato introducido no es correcto, entra un número");
+                i--;
+            }
+        }
+    }
+    
+
+    
+    function MostraCarta()
+    {
+        document.write("NUESTRA CARTA ES : " + "<br>");
+            
+        for (var i=0; i<arrayPlats.length;i++)
+        {
+            document.write("Plato : \t " +  arrayPlats[i] +   "----------- "     +  " Precio : \t"  + arrayPreus[i] + "\t Euros" + "<br>");
+        }
+    }
+    
+   
+   
+   
+        
+
+
+    </script>    
+</body>
+</html>
+
