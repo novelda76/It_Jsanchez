@@ -57,3 +57,11 @@ Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALE
 Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfo.cs
 Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.dll
 Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.pdb
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.deps.json
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.dll
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.pdb
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.csprojAssemblyReference.cache
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfoInputs.cache
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfo.cs
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.dll
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.pdb

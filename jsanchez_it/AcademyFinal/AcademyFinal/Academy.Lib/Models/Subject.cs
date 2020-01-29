@@ -40,7 +40,7 @@ namespace Academy.Lib.Models
             #region check duplication
 
 
-            var repo = DepCon.Resolve<ISubjectsRepository>();
+            var repo = DepCon.Resolve<IRepository<Subject>>();
             var entityWithName = repo.QueryAll().FirstOrDefault(x => x.Name == name);
 
 

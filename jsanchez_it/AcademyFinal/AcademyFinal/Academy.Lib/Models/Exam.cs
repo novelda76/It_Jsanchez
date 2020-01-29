@@ -6,14 +6,12 @@ using System;
 
 namespace Academy.Lib.Models
 {
-    public class Exam: Entity
+    public class Exam : Entity
     {
-
         public Exam()
         {
 
         }
-
 
         public string Title { get; set; }
 

@@ -114,7 +114,7 @@ namespace AcademyFinal.App.WPF.ViewModels
             student.Name = this.Name;
             student.Email = this.Email;
             student.ChairNumber = int.Parse(ChairNumber);
-            //isConversionOk = int.TryParse(student.ChairNumber, out ChairNumber);
+            bool isConversionOk = int.TryParse(student.ChairNumber, out ChairNumber);
 
             var sr = student.Save();
             if (sr.IsSuccess)

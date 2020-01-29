@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\ItAcademyExercicis\ItAcademyExercicis\PracticaFinalBloqueTroncal\WPFAcademyMVVMFinal\WPFAcademyMVVMFinal\App.xaml
-10-2105710315
+4-336327919
 
-29-672901816
+18485081255
 225-2047259077
-MainWindow.xaml;Views\ExamsView.xaml;Views\StatisticsByExamsView.xaml;Views\StatisticsByStudentsView.xaml;Views\StatisticsBySubjectsView.xaml;Views\StatisticsView.xaml;Views\StudentExamsView.xaml;Views\StudentSubjectsView.xaml;Views\StudentsView.xaml;Views\SubjectsView.xaml;
+MainWindow.xaml;Views\ExamsView.xaml;Views\StudentsView.xaml;Views\SubjectsView.xaml;
 
 False
 

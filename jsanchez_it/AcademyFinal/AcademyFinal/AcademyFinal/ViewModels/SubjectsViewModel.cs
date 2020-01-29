@@ -85,7 +85,11 @@ namespace AcademyFinal.App.WPF.ViewModels
 
         public void GetSubjects()
         {
-            var repo = Entity.DepCon.Resolve<ISubjectsRepository>();
+            //var repo = Entity.DepCon.Resolve<ISubjectsRepository>();
+            //Subjects = repo.QueryAll().ToList();
+
+            var subject = new Subject();
+            var repo = Subject.DepCon.Resolve<IRepository<Subject>>();
             Subjects = repo.QueryAll().ToList();
         }
 

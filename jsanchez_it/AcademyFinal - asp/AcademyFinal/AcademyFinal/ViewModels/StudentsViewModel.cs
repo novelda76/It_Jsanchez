@@ -64,6 +64,18 @@ namespace AcademyFinal.App.WPF.ViewModels
         }
         string _email;
 
+        private string _chairText;
+
+        public string ChairText
+        {
+            get { return _chairText; }
+            set
+            {
+                _chairText = value;
+                OnPropertyChanged();
+            }
+        }
+
         public string ChairNumber
         {
             get
@@ -106,6 +118,52 @@ namespace AcademyFinal.App.WPF.ViewModels
         }
         List<Student> _students;
 
+        private Student _currentStudent;
+        public Student CurrentStudent
+        {
+            get { return _currentStudent; }
+            set
+            {
+                _currentStudent = value;
+                OnPropertyChanged();
+            }
+        }
+
+
+        List<ErrorMessage> _errorsList;
+        public List<ErrorMessage> ErrorsList
+        {
+            get
+            {
+                return _errorsList;
+            }
+            set
+            {
+                _errorsList = value;
+                OnPropertyChanged();
+            }
+        }
+
+        //public void ChairStringToInt()
+        //{
+        //    var chairVR = Student.ValidateChairNumber(ChairText);
+        //    if (!chairVR.IsSuccess)
+        //    {
+        //        ErrorsList = chairVR.Errors.Select(x => new ErrorMessage() { Message = x }).ToList();
+        //        CurrentStudent = null;
+        //        Dni = "";
+        //        Name = "";
+        //        ChairText = "";
+        //        Email = "";
+        //    }
+
+        //    else
+        //    {
+        //        ChairNumber = chairVR.ValidatedResult;
+        //    }
+
+        //}
+
 
         public StudentsViewModel()
         {
@@ -144,6 +202,7 @@ namespace AcademyFinal.App.WPF.ViewModels
         {
             var repo = Entity.DepCon.Resolve<IStudentRepository>();
             var currentStudent = repo.QueryAll().FirstOrDefault(x => x.Name.StartsWith("pocholo"));
+            //ErrorsList = student.CurrentValidation.Errors.Select(x => new ErrorMessage() { Message = x }).ToList();
             if (currentStudent != null)
             {
                 var editStudent = currentStudent.Clone();
@@ -154,9 +213,38 @@ namespace AcademyFinal.App.WPF.ViewModels
             }
         }
 
+        public void DelStudent()
+        {
+
+            Student student = new Student();
+
+            if (CurrentStudent == null)
+            {
+                student.Delete();
+                ErrorsList = student.CurrentValidation.Errors.Select(x => new ErrorMessage() { Message = x }).ToList();
+
+            }
+
+            else
+            {
+                student = CurrentStudent;
+
+                student.Delete();
+
+                ErrorsList = new List<ErrorMessage>();
+                ErrorsList = student.CurrentValidation.Errors.Select(x => new ErrorMessage() { Message = x }).ToList();
+
+                GetStudents();
+
+                Dni = "";
+                Name = "";
+                ChairNumber = "";
+                Email = "";
+
+            }
+        }
 
 
-       
         public Student SelectedStudent
         {
             get

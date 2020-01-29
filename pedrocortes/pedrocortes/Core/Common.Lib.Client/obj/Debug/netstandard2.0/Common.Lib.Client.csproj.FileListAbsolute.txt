@@ -86,3 +86,14 @@ Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALE
 Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\Core\Common.Lib.Client\obj\Debug\netstandard2.0\Common.Lib.Client.csproj.CopyComplete
 Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\Core\Common.Lib.Client\obj\Debug\netstandard2.0\Common.Lib.Client.dll
 Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\Core\Common.Lib.Client\obj\Debug\netstandard2.0\Common.Lib.Client.pdb
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Common.Lib.Client\bin\Debug\netstandard2.0\Common.Lib.Client.deps.json
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Common.Lib.Client\bin\Debug\netstandard2.0\Common.Lib.Client.dll
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Common.Lib.Client\bin\Debug\netstandard2.0\Common.Lib.Client.pdb
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Common.Lib.Client\bin\Debug\netstandard2.0\Common.Lib.dll
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Common.Lib.Client\bin\Debug\netstandard2.0\Common.Lib.pdb
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Common.Lib.Client\obj\Debug\netstandard2.0\Common.Lib.Client.csprojAssemblyReference.cache
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Common.Lib.Client\obj\Debug\netstandard2.0\Common.Lib.Client.AssemblyInfoInputs.cache
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Common.Lib.Client\obj\Debug\netstandard2.0\Common.Lib.Client.AssemblyInfo.cs
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Common.Lib.Client\obj\Debug\netstandard2.0\Common.Lib.Client.csproj.CopyComplete
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Common.Lib.Client\obj\Debug\netstandard2.0\Common.Lib.Client.dll
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\pedrocortes\pedrocortes\Core\Common.Lib.Client\obj\Debug\netstandard2.0\Common.Lib.Client.pdb

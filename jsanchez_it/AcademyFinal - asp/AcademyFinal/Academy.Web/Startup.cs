@@ -17,6 +17,8 @@ using Microsoft.EntityFrameworkCore;
 using Common.Lib.Infrastructure;
 using Common.Lib.Core;
 using Academy.Web.App;
+using Academy.Lib.Repositories;
+using Academy.Lib.DAL.Repositories;
 
 namespace Academy.Web
 {
@@ -37,7 +39,7 @@ namespace Academy.Web
         {
             services.AddControllers();
 
-            
+            services.AddScoped<IStudentRepository, StudentRepository>();
 
             var dbConnection = Configuration.GetConnectionString("AcademyDbConnection");
             

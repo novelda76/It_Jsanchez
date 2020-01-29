@@ -213,6 +213,13 @@ namespace Academy.Lib.Models
             return saveResult;
         }
 
+        public DeleteResult<Student> Delete()
+        {
+            var deleteResult = base.Delete<Student>();
+
+            return deleteResult;
+        }
+
         public override ValidationResult Validate()
         {
             var output = base.Validate();
