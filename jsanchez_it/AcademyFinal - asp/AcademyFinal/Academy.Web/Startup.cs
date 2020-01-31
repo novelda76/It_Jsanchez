@@ -20,6 +20,7 @@ using Academy.Web.App;
 using Academy.Lib.Repositories;
 using Academy.Lib.DAL.Repositories;
 
+
 namespace Academy.Web
 {
     public class Startup
@@ -38,6 +39,7 @@ namespace Academy.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            //services.AddControllersWithViews();
 
             services.AddScoped<IStudentRepository, StudentRepository>();
 
@@ -45,7 +47,7 @@ namespace Academy.Web
             
             services.AddDbContext < AcademyDbContext >
                 (options => options.UseSqlite(dbConnection, b => b.MigrationsAssembly("AcademyFinal.App.WPF")));
-                
+
 
             var bootstrapper = new Bootstrapper();
             Entity.DepCon = new SimpleDependencyContainer();
@@ -65,16 +67,27 @@ namespace Academy.Web
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("/Home/Error");
+                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                app.UseHsts();
+            }
 
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
+            app.UseDefaultFiles();  //esto levanta el html
+            app.UseStaticFiles(); //esto levanta el html
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                endpoints.MapControllerRoute(
+                   name: "default",
+                   pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
 

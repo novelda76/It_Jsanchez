@@ -151,9 +151,9 @@ C:\Users\formacio\Documents\jsanchez_it\AcademyFinal - asp\AcademyFinal\Academy.
 C:\Users\formacio\Documents\jsanchez_it\AcademyFinal - asp\AcademyFinal\Academy.Web\obj\Debug\netcoreapp3.1\Academy.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal - asp\AcademyFinal\Academy.Web\bin\Debug\netcoreapp3.1\AcademyFinal.App.WPF.exe
 C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal - asp\AcademyFinal\Academy.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal - asp\AcademyFinal\Academy.Web\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal - asp\AcademyFinal\Academy.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal - asp\AcademyFinal\Academy.Web\bin\Debug\netcoreapp3.1\Academy.Web.exe
-C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal - asp\AcademyFinal\Academy.Web\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal - asp\AcademyFinal\Academy.Web\bin\Debug\netcoreapp3.1\Academy.Web.deps.json
 C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal - asp\AcademyFinal\Academy.Web\bin\Debug\netcoreapp3.1\Academy.Web.runtimeconfig.json
 C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\jsanchez_it\AcademyFinal - asp\AcademyFinal\Academy.Web\bin\Debug\netcoreapp3.1\Academy.Web.runtimeconfig.dev.json
