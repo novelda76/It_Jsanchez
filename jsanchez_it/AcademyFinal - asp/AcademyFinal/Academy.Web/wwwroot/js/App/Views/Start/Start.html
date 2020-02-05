@@ -1,0 +1,8 @@
+﻿<div class="Start">
+
+    <login ng-if="vm.IsShowLogin"></login>
+    <register ng-if="!vm.IsShowLogin"></register>
+
+    <input ng-if="!vm.IsShowLogin" type="button" class="text-center new-account" value="Login if you have an account" ng-click="vm.ShowLogin()" />
+    <input ng-if="vm.IsShowLogin" type="button" class="text-center new-account" value="Create an account" ng-click="vm.ShowRegister()" />
+</div>

@@ -1,0 +1,35 @@
+C:\Users\Cristina\Desktop\C#\Academy Project\AcademyFinal\Academy.Lib.DAL\bin\Debug\netstandard2.0\Academy.Lib.DAL.deps.json
+C:\Users\Cristina\Desktop\C#\Academy Project\AcademyFinal\Academy.Lib.DAL\bin\Debug\netstandard2.0\Academy.Lib.DAL.dll
+C:\Users\Cristina\Desktop\C#\Academy Project\AcademyFinal\Academy.Lib.DAL\bin\Debug\netstandard2.0\Academy.Lib.DAL.pdb
+C:\Users\Cristina\Desktop\C#\Academy Project\AcademyFinal\Academy.Lib.DAL\bin\Debug\netstandard2.0\Academy.Lib.dll
+C:\Users\Cristina\Desktop\C#\Academy Project\AcademyFinal\Academy.Lib.DAL\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.dll
+C:\Users\Cristina\Desktop\C#\Academy Project\AcademyFinal\Academy.Lib.DAL\bin\Debug\netstandard2.0\Common.Lib.dll
+C:\Users\Cristina\Desktop\C#\Academy Project\AcademyFinal\Academy.Lib.DAL\bin\Debug\netstandard2.0\Academy.Lib.pdb
+C:\Users\Cristina\Desktop\C#\Academy Project\AcademyFinal\Academy.Lib.DAL\bin\Debug\netstandard2.0\Common.Lib.pdb
+C:\Users\Cristina\Desktop\C#\Academy Project\AcademyFinal\Academy.Lib.DAL\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.pdb
+C:\Users\Cristina\Desktop\C#\Academy Project\AcademyFinal\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.csprojAssemblyReference.cache
+C:\Users\Cristina\Desktop\C#\Academy Project\AcademyFinal\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.AssemblyInfoInputs.cache
+C:\Users\Cristina\Desktop\C#\Academy Project\AcademyFinal\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.AssemblyInfo.cs
+C:\Users\Cristina\Desktop\C#\Academy Project\AcademyFinal\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.csproj.CopyComplete
+C:\Users\Cristina\Desktop\C#\Academy Project\AcademyFinal\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.dll
+C:\Users\Cristina\Desktop\C#\Academy Project\AcademyFinal\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.pdb
+C:\Users\Cristina\Desktop\C#\ASP .NET\AcademyFinalServidor\Academy.Lib.DAL\bin\Debug\netstandard2.0\Academy.Lib.DAL.deps.json
+C:\Users\Cristina\Desktop\C#\ASP .NET\AcademyFinalServidor\Academy.Lib.DAL\bin\Debug\netstandard2.0\Academy.Lib.DAL.dll
+C:\Users\Cristina\Desktop\C#\ASP .NET\AcademyFinalServidor\Academy.Lib.DAL\bin\Debug\netstandard2.0\Academy.Lib.DAL.pdb
+C:\Users\Cristina\Desktop\C#\ASP .NET\AcademyFinalServidor\Academy.Lib.DAL\bin\Debug\netstandard2.0\Academy.Lib.dll
+C:\Users\Cristina\Desktop\C#\ASP .NET\AcademyFinalServidor\Academy.Lib.DAL\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.dll
+C:\Users\Cristina\Desktop\C#\ASP .NET\AcademyFinalServidor\Academy.Lib.DAL\bin\Debug\netstandard2.0\Common.Lib.dll
+C:\Users\Cristina\Desktop\C#\ASP .NET\AcademyFinalServidor\Academy.Lib.DAL\bin\Debug\netstandard2.0\Academy.Lib.pdb
+C:\Users\Cristina\Desktop\C#\ASP .NET\AcademyFinalServidor\Academy.Lib.DAL\bin\Debug\netstandard2.0\Common.Lib.pdb
+C:\Users\Cristina\Desktop\C#\ASP .NET\AcademyFinalServidor\Academy.Lib.DAL\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.pdb
+C:\Users\Cristina\Desktop\C#\ASP .NET\AcademyFinalServidor\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.csprojAssemblyReference.cache
+C:\Users\Cristina\Desktop\C#\ASP .NET\AcademyFinalServidor\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.AssemblyInfoInputs.cache
+C:\Users\Cristina\Desktop\C#\ASP .NET\AcademyFinalServidor\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.AssemblyInfo.cs
+C:\Users\Cristina\Desktop\C#\ASP .NET\AcademyFinalServidor\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.csproj.CopyComplete
+C:\Users\Cristina\Desktop\C#\ASP .NET\AcademyFinalServidor\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.dll
+C:\Users\Cristina\Desktop\C#\ASP .NET\AcademyFinalServidor\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.pdb
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\AcademyFinalServidor\AcademyFinalServidor\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.csprojAssemblyReference.cache
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\AcademyFinalServidor\AcademyFinalServidor\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.AssemblyInfoInputs.cache
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\AcademyFinalServidor\AcademyFinalServidor\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.AssemblyInfo.cs
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\AcademyFinalServidor\AcademyFinalServidor\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.dll
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\AcademyFinalServidor\AcademyFinalServidor\Academy.Lib.DAL\obj\Debug\netstandard2.0\Academy.Lib.DAL.pdb

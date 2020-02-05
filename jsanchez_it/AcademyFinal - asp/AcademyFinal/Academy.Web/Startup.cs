@@ -76,10 +76,10 @@ namespace Academy.Web
 
             app.UseHttpsRedirection();
 
-            app.UseRouting();
-
             app.UseDefaultFiles();  //esto levanta el html
             app.UseStaticFiles(); //esto levanta el html
+
+            app.UseRouting();
 
             app.UseAuthorization();
 
