@@ -107,6 +107,13 @@ namespace Academy.Lib.Models
             return saveResult;
         }
 
+        public DeleteResult<Subject> Delete()
+        {
+            var deleteResult = base.Delete<Subject>();
+
+            return deleteResult;
+        }
+
 
         public override T Clone<T>()
         {

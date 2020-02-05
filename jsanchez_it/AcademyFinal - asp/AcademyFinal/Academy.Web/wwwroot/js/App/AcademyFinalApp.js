@@ -6,11 +6,18 @@ var AcademyFinalApp = angular.module('AcademyFinalApp',
 
 AcademyFinalApp.config(function ($routeProvider, $locationProvider) {
     $routeProvider
-        /*.when("/", {
+        .when("/", {
             controller: "home",
             controllerAs: "vm",
             templateUrl: "./js/App/Views/Index/Home/Home.html'"
-        })*/
+        })
+
+        .when("/subjects", {
+            controller: "subjects",
+            controllerAs: "vm",
+            templateUrl: "./js/App/Views/Index/Home/Subject/Subject.html'"
+        })
+
         .when("/students", {
             controller: "students",
             controllerAs: "vm",

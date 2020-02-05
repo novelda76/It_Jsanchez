@@ -9,6 +9,8 @@ using Academy.Lib.DAL;
 using Academy.Lib.Models;
 using Academy.Lib.Repositories;
 using Common.Lib.Core;
+using Academy.Lib.DAL.Repositories;
+using Common.Lib.Infrastructure;
 
 namespace Academy.Web.Controllers
 {
@@ -16,98 +18,98 @@ namespace Academy.Web.Controllers
     [ApiController]
     public class SubjectsController : ControllerBase
     {
-        private readonly AcademyDbContext _context;
+        //private readonly AcademyDbContext _context;
 
-        public SubjectsController(AcademyDbContext context)
+        public SubjectsController()
         {
-            _context = context;
+
         }
 
         // GET: api/Subjects
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Subject>>> GetSubjects()
+
+        public async Task<IEnumerable<Subject>> GetSubjects()
         {
-            var repo = Entity.DepCon.Resolve<ISubjectsRepository>();
-            return await _context.Subjects.ToListAsync();
+            var repo = Entity.DepCon.Resolve<SubjectRepository>();
+            var SubjectsList = await repo.QueryAll().ToListAsync();
+            return repo.QueryAll();
+
         }
+
+        
 
         // GET: api/Subjects/5
         [HttpGet("{id}")]
+
         public async Task<ActionResult<Subject>> GetSubject(Guid id)
         {
-            var subject = await _context.Subjects.FindAsync(id);
-
-            if (subject == null)
+            return await Task.Run(() =>
             {
-                return NotFound();
-            }
+                var repo = Entity.DepCon.Resolve<ISubjectsRepository>();
+                var subject = repo.QueryAll().FirstOrDefault(x => x.Id == id);
 
-            return subject;
+                if (subject == null)
+                {
+
+                    return null;
+                }
+
+                return subject;
+
+            });
         }
 
         // PUT: api/Subjects/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutSubject(Guid id, Subject subject)
+
+        public async Task<ActionResult<SaveResult<Subject>>> PutSubject(Subject subject)
         {
-            if (id != subject.Id)
+            return await Task.Run(() =>
             {
-                return BadRequest();
-            }
-
-            _context.Entry(subject).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!SubjectExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
+                var sr = subject.Save();
+                return sr;
+            });
         }
+        
 
         // POST: api/Subjects
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.
         [HttpPost]
-        public async Task<ActionResult<Subject>> PostSubject(Subject subject)
-        {
-            _context.Subjects.Add(subject);
-            await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetSubject", new { id = subject.Id }, subject);
+        public async Task<ActionResult<SaveResult<Subject>>> PostSubject(Subject subject)
+        {
+            return await Task.Run(() =>
+            {
+                var sr = subject.Save();
+                return sr;
+            });
         }
+        
 
         // DELETE: api/Subjects/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Subject>> DeleteSubject(Guid id)
+
+        public async Task<ActionResult<DeleteResult<Subject>>> DeleteSubject(Guid id)
         {
-            var subject = await _context.Subjects.FindAsync(id);
-            if (subject == null)
+            return await Task.Run(() =>
             {
-                return NotFound();
-            }
+                var repo = Entity.DepCon.Resolve<ISubjectsRepository>();
+                var subject = repo.QueryAll().FirstOrDefault(x => x.Id == id);
+                var ds = subject.Delete();
 
-            _context.Subjects.Remove(subject);
-            await _context.SaveChangesAsync();
-
-            return subject;
+                return ds;
+            });
         }
 
         private bool SubjectExists(Guid id)
         {
-            return _context.Subjects.Any(e => e.Id == id);
+            var repo = Entity.DepCon.Resolve<IStudentRepository>();
+            var existingSubject = repo.QueryAll().Any(e => e.Id == id);
+            return existingSubject;
         }
+       
     }
 }
