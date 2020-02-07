@@ -1,14 +1,29 @@
 ﻿<div class="Home">
 
-    <menu></menu>
+    Programa de gestión académica
 
-    <div>
-        <div ng-view>
-            <p> Esto es el home </p>
-        </div>
+    <nav class="{{active}}" ng-click="$event.preventDefault()">
 
-    </div>
+        <!-- When a link in the menu is clicked, we set the active variable -->
 
-   
+        <a href="#" class="student" ng-click="active='student'">Student</a>
+        <a href="#" class="about" ng-click="active='about'">About</a>
+        <a href="#" class="contact" ng-click="active='contact'">Contact</a>
+    </nav>
+
+    <!-- ng-show will show an element if the value in the quotes is truthful,
+         while ng-hide does the opposite. Because the active variable is not set
+         initially, this will cause the first paragraph to be visible. -->
+
+
+    <!--<p ng-show="active">You chose <b>{{active}}</b></p>-->
+
+
+    <!--<input type="button" ng-click="vm.RequestStudents()" value="Ver estudiantes" />
+    <div ui-grid="{ data: vm.Students }" class="myGrid"></div>-->
+    <!--<input type="button" ng-click="vm.RequestSubjects()" value="Ver asignaturas" />
+    <div ui-grid="{ data: vm.Subjects }" class="myGrid"></div>-->
+
+
 
 </div>

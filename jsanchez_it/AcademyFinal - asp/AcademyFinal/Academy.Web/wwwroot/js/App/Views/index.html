@@ -14,12 +14,13 @@
 
 <div class="Index">
     <login ng-if="!vm.IsLogon"></login>
-    <div ng-if="vm.IsLogon">
-        Programa de gestión académica
+    <home ng-if="vm.IsLogon"></home>
+        <!--Programa de gestión académica       
+
         <input type="button" ng-click="vm.RequestStudents()" value="Ver estudiantes" />
         <div ui-grid="{ data: vm.Students }" class="myGrid"></div>
         <input type="button" ng-click="vm.RequestSubjects()" value="Ver asignaturas" />
-        <div ui-grid="{ data: vm.Subjects }" class="myGrid"></div>
+        <div ui-grid="{ data: vm.Subjects }" class="myGrid"></div>-->
 
-    </div>
+    
 </div>
