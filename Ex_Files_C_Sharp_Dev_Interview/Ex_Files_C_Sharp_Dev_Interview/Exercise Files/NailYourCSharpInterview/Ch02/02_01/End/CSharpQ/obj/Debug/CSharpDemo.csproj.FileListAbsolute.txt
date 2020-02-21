@@ -4,3 +4,9 @@ C:\Users\Reynald Adolphe\Desktop\Exercises\NailYourCSharpInterview\Ch02\02_01\En
 C:\Users\Reynald Adolphe\Desktop\Exercises\NailYourCSharpInterview\Ch02\02_01\End\CSharpQ\obj\Debug\CSharpDemo.csprojResolveAssemblyReference.cache
 C:\Users\Reynald Adolphe\Desktop\Exercises\NailYourCSharpInterview\Ch02\02_01\End\CSharpQ\obj\Debug\CSharpQ.exe
 C:\Users\Reynald Adolphe\Desktop\Exercises\NailYourCSharpInterview\Ch02\02_01\End\CSharpQ\obj\Debug\CSharpQ.pdb
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\Ex_Files_C_Sharp_Dev_Interview\Ex_Files_C_Sharp_Dev_Interview\Exercise Files\NailYourCSharpInterview\Ch02\02_01\End\CSharpQ\bin\Debug\CSharpQ.exe.config
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\Ex_Files_C_Sharp_Dev_Interview\Ex_Files_C_Sharp_Dev_Interview\Exercise Files\NailYourCSharpInterview\Ch02\02_01\End\CSharpQ\bin\Debug\CSharpQ.exe
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\Ex_Files_C_Sharp_Dev_Interview\Ex_Files_C_Sharp_Dev_Interview\Exercise Files\NailYourCSharpInterview\Ch02\02_01\End\CSharpQ\bin\Debug\CSharpQ.pdb
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\Ex_Files_C_Sharp_Dev_Interview\Ex_Files_C_Sharp_Dev_Interview\Exercise Files\NailYourCSharpInterview\Ch02\02_01\End\CSharpQ\obj\Debug\CSharpDemo.csprojAssemblyReference.cache
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\Ex_Files_C_Sharp_Dev_Interview\Ex_Files_C_Sharp_Dev_Interview\Exercise Files\NailYourCSharpInterview\Ch02\02_01\End\CSharpQ\obj\Debug\CSharpQ.exe
+C:\Users\formacio\Documents\It_Jsanchez\It_Jsanchez\Ex_Files_C_Sharp_Dev_Interview\Ex_Files_C_Sharp_Dev_Interview\Exercise Files\NailYourCSharpInterview\Ch02\02_01\End\CSharpQ\obj\Debug\CSharpQ.pdb
