@@ -1,0 +1,27 @@
+Create procedure spAddEmployee     
+(    
+
+    @CompanyId int,
+	@CreatedOn datetime,
+	@DeletedOn datetime,
+	@Email varchar(20),
+	@Fax varchar(20),
+    @Name varchar(20),
+	@Lastlogin datetime,
+	@Password varchar(20),
+	@PortalId int,
+	@RoleId int,
+	@StatusId int,
+	@Telephone varchar(20),
+	@UpdatedOn datetime,
+	@Username varchar(20) 
+
+   
+)    
+as     
+Begin     
+    Insert into dbo.Employee (CompanyId, CreatedOn, DeletedOn, Email, Fax, Name, 
+	Lastlogin, Password, PortalId, RoleId, StatusId, Telephone, UpdatedOn, Username)     
+    Values (@CompanyId, @CreatedOn, @DeletedOn, @Email, @Fax, @Name, @Lastlogin,
+	@Password, @PortalId, @RoleId, @StatusId, @Telephone,@UpdatedOn,@Username)     
+End
